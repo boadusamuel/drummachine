@@ -22,6 +22,30 @@ class App extends React.Component {
     player.play();
     this.setState({ display: event.target.id });
   }
+
+  componentDidMount() {
+    document.onkeypress = function (e) {
+      if (e.which === 81 || e.which === 113) {
+        document.getElementById("quarra").click();
+      } else if (e.which === 87 || e.which === 119) {
+        document.getElementById("level").click();
+      } else if (e.which === 69 || e.which === 101) {
+        document.getElementById("starter").click();
+      } else if (e.which === 65 || e.which === 97) {
+        document.getElementById("strong").click();
+      } else if (e.which === 83 || e.which === 115) {
+        document.getElementById("tune").click();
+      } else if (e.which === 68 || e.which === 100) {
+        document.getElementById("banku").click();
+      } else if (e.which === 90 || e.which === 122) {
+        document.getElementById("bumper").click();
+      } else if (e.which === 88 || e.which === 120) {
+        document.getElementById("blazer").click();
+      } else if (e.which === 67 || e.which === 99) {
+        document.getElementById("fire").click();
+      }
+    };
+  }
   render() {
     return (
       <div className="container">
