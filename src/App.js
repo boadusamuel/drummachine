@@ -184,7 +184,7 @@ class App extends React.Component {
                       type="audio"
                       className="clip"
                     ></audio>
-                    C
+                    F
                   </button>
                 </div>
               </div>

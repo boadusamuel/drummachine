@@ -16,10 +16,12 @@
   color: black;
   font-size: large;
   font-weight: bold;
+  outline: 2px solid greenyellow;
 }
 
 #display {
   width: 140px;
   height: 30px;
   background: rgb(100, 230, 14);
+  outline: 4px solid black;
 }
