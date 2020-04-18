@@ -197,6 +197,8 @@ class App extends React.Component {
                     >
                       {this.state.display}
                     </p>
+                    <div></div>
+                  
                   </div>
                 </div>
               </div>
